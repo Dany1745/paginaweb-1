@@ -113,7 +113,10 @@ body {
   text-align: center;
   transition: visibility 0s, opacity 0.5s linear;
 }
-
+.greeting{
+  color: #0769e9;
+  background-color: red;
+}
 /* MOBILE */
 @media (max-width: 768px) {
   body {
