@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c5dfdd952c.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="for.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo nav-link">Logo</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Blog</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Videos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Sobre mí</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequatur amet officia magnam velit,
+           molestias harum quia fugiat alias ducimus. Explicabo aut blanditiis quae iure quibusdam et. Officiis, maxime nam.
+        </p>
+        <div>
+          <img src="img/gato.png" alt="">
+        </div>
+      </div>
+
+      <div class="seccion2">
+          <div class="cont1">
+            <img src="img/gato.png" alt="">
+            <p>esto es un gato ejemplo</p>
+            <a href="">link</a>
+          </div>
+          <div class="cont1">
+            <img src="img/gato.png" alt="">
+            <p>esto es un gato ejemplo</p>
+            <a href="">link</a>
+          </div>
+          <div class="cont1">
+            <img src="img/gato.png" alt="">
+            <p>esto es un gato ejemplo</p>
+            <a href="">link</a>
+          </div>
+      </div>
+      <div>
+        <h1>Contacto</h1>
+        <p><em>¡Esperamos tu consulta!</em></p>
+  
+        <form action="" method="get" class="formulario" id="form">
+          <div class="form-row">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" />
+            </div>
+  
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="pepe@gmail.com"
+                required
+              />
+            </div> 
+            <div class="form-row">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+            <div class="form-row" >
+              <button type="submit" id="submit"></button>
+            </div>
+            <p class="alertas" id="alertas"></p>
+        </form>
+      </div>  
+    </main>
+  </body>
+</html>
